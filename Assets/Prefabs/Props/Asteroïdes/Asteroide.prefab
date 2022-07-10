@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3008699736097759778}
   - component: {fileID: 4358280807429478632}
   - component: {fileID: 5607445297975094503}
+  - component: {fileID: 5983355458950292068}
   m_Layer: 0
   m_Name: Asteroide
   m_TagString: Untagged
@@ -113,7 +114,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 120
   m_CollisionDetection: 0
 --- !u!114 &5607445297975094503
 MonoBehaviour:
@@ -127,5 +128,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 957ef56db874189419ebf6a93f66b1ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 15
-  LimitY: -60
+  speed: 10
+--- !u!114 &5983355458950292068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9037409012095464967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6ddc24cc12ffd24eb09c22d236b7f8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yposLimit: -15
